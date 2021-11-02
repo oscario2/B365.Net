@@ -1,0 +1,36 @@
+﻿
+// set ._T under u.ParseMessage
+"TK"in f && (J = f.TK,
+    S = String.fromCharCode(J.charCodeAt(0) ^ J.charCodeAt(1)))
+...
+case "PA":
+     E = new n,
+     W = R || M || V || Y || ne,
+     y && (f.ZW = y + "-" + f.ID),
+     S && (f._T = S),
+     E.parent = W,
+     P = W._actualChildren[W._actualChildren.length] = E;
+
+
+// in file for first initiator of SportsBook.API
+s = t[this.oddsOverride || "OD"],
+"_T"in this.stem.data && (s = e(s, this.stem.data._T)),
+
+// C saves the conversion e.g HVLII = 1.002 to a lookup table
+function e(t, e) {
+    // t  = odds, e = key
+    var n, r, s, a;
+    if (!t || !e)
+        return t;
+    if (n = t + "%" + e,
+    C[n])
+        return C[n];
+    for (e != i && (C = {},
+    i = e),
+    r = e.charCodeAt(0),
+    s = "",
+    a = 0; a < t.length; a++)
+        s += String.fromCharCode(t.charCodeAt(a) ^ r);
+    return C[n] = s,
+    s
+}
